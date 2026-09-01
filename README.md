@@ -61,7 +61,7 @@ bash /path/to/hardcoded_playlist.sh
 ```
 Substituting in for your actual directories. Pressing this key on your macropad of choice should play your playlist.
 
-![Screenshot of OpenDeck showing the setup audio selection keys](Pictures_for_readme/OpenDeck_layout,png)
+![Screenshot of OpenDeck](Pictures_for_readme/OpenDeck_layout.png)
 
 ### Stop Music
 To stop the music, place a Run Command tile in your desired position and have it run on Key down:
