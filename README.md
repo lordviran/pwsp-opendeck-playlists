@@ -23,7 +23,7 @@ bash /path/to/Playlist_Builder.sh
 ```
 You will be given the option to create a new playlist, modify an existing playlist, or create a new hardcoded script for playing the playlist. 
 
-(Picture goes here for selecting option)
+![Selection options](Pictures_for_readme/selection_screenshot.png)
 
 For new playlists, you'll be prompted to name your playlist, and then choose which audio files will go in your playlist. You can select multiple files at once.
 
