@@ -27,8 +27,6 @@ You will be given the option to create a new playlist, modify an existing playli
 
 For new playlists, you'll be prompted to name your playlist, and then choose which audio files will go in your playlist. You can select multiple files at once.
 
-(Picture of selecting music files)
-
 You will be prompted continuously to add audio files until you respond that you don't want to. Once you're done adding music, you can choose to output a hardcoded bash script for playing this playlist. I included this is as an option because it makes for a shorter final excecution line, but the included **playlist_general.sh** file can do the same thing with any arbitrary playlist file. Your playlist will be output as a .txt file with whichever name you chose. To play your playlist, run
 ```
 bash /path/to/playlist_general.sh /path/to/your_playlist.txt
@@ -62,6 +60,8 @@ or
 bash /path/to/hardcoded_playlist.sh
 ```
 Substituting in for your actual directories. Pressing this key on your macropad of choice should play your playlist.
+
+![Screenshot of OpenDeck showing the setup audio selection keys](Pictures_for_readme/OpenDeck_layout,png)
 
 ### Stop Music
 To stop the music, place a Run Command tile in your desired position and have it run on Key down:
