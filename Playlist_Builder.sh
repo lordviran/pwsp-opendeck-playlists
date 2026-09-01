@@ -52,7 +52,7 @@ EOF
 zenity --info --text="This script will bring up dialogue boxes like this one for you to pick your music. The entire script is available for you to inspect. It uses Zenity calls and basic bash scripting to accomplish everything." # Bring up info box to let user know these will be called
 
 # Option to edit playlist, cancel, or create new
-selec=$(zenity --list --title="Choose an option" --column="Playlist Options" "Create a Playlist" "Add to Playlist" "Write new Playlist Executable")
+selec=$(zenity --list --title="Choose an option" --column="Playlist Options" "Create a Playlist" "Add to Playlist" "Write new Hardcoded Playlist Executable")
 
 # Name playlist, add music, write to file, make bash script to play it
 if [[ "${selec}" == "Create a Playlist" ]]; then
