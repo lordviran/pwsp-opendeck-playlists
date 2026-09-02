@@ -1,6 +1,7 @@
 # pwsp-opendeck-playlists
 This repository contains a set of scripts intended for use with OpenDeck software to play audio playlists. Currently, the Elgato software does not support Linux systems, and that includes the default audio player that can play a shuffled playlist. Using these scripts and a couple of Linux packages, you can easily set up macros on OpenDeck to play a shuffled playlist, complete with controls for pausing, skipping, etc. It accomplishes this partly by generating and reading from an iterator text file while running a simple loop with nested if statements. I recommend keeping these bash scripts all in the same directory.
 
+I've made a video going over much of this information regarding setup and use. That video is here: https://youtu.be/hpMDuCx-FFM
 ## Prerequisites
 These scripts were written on a CachyOS Linux system. That said, most of the commands used are simple bash commands included on any Linux device.
 
